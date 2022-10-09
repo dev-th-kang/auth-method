@@ -1,0 +1,19 @@
+// .tsconfig.json
+{
+  "compilerOptions": {
+    "incremental": true,                  
+    "target": "es2020",                  
+    "module": "commonjs",                 
+    "allowJs": true,                      
+    "checkJs": true,                      
+    "declaration": true,                  
+    "sourceMap": true,                    
+    "outDir": "./dist",                   
+    "removeComments": true,               
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,       
+    "emitDecoratorMetadata": true,        
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
